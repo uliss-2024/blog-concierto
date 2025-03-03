@@ -1,0 +1,84 @@
+body p{
+    color: green;
+    }
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Fondo oscuro para que el texto blanco sea visible */
+    color: white;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header .logo img {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: #ffcc00; /* Color amarillo */
+}
+
+/* Estilos para la sección de contenido */
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen-concierto img {
+    width: 100%;
+    max-width: 600px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 10px;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444; /* Gris oscuro */
+}
+
+body p {
+    color: green; /* Color verde para todos los párrafos */
+}
+
+
+info p {
+    color: blue !important; /* Azul con prioridad */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative
+}
+
+/* Prioridad de estilos */
+body {
+    color: white !important; /* Prioridad con !important */
+}
